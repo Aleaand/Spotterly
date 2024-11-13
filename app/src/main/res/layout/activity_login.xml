@@ -25,13 +25,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
-    <!-- Correo User -->
-    <!-- Contraseña -->
 
     <EditText
         android:id="@+id/txtUsuarioCorreo"
-        android:layout_width="279dp"
-        android:layout_height="38dp"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
         android:layout_marginStart="66dp"
         android:ems="10"
         android:inputType="textEmailAddress"
@@ -80,8 +78,8 @@
 
     <EditText
         android:id="@+id/txtUsuarioContrasena"
-        android:layout_width="279dp"
-        android:layout_height="41dp"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
         android:layout_marginStart="66dp"
         android:ems="10"
         android:inputType="numberPassword"
