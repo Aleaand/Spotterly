@@ -19,7 +19,7 @@ public class LandingActivity extends AppCompatActivity {
         // Configurar la pantalla en modo edge-to-edge
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_landing);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.txtDesc2), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
