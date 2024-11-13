@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
         android:layout_marginTop="10dp"
-        android:text="Recuerdame"
+        android:text="Recuérdame"
         app:layout_constraintStart_toEndOf="@+id/textRecuperarContra"
         app:layout_constraintTop_toBottomOf="@+id/txtUsuarioContrasena" />
 
@@ -105,12 +105,5 @@
         android:text="Contraseña"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtUsuarioCorreo" />
-
-    <!-- Recuerdame... Que hace eso??? -->
-    <!--Confirma los datos del login con la bd(a futuro) y si es correcto te lleva al activity_inicio -->
-
-    <!-- Te lleva a activity_registro -->
-
-    <!-- Es un link que te lleva a activity_recuperar_contrasena -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
